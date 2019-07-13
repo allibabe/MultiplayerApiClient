@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="container">
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">&nbsp;</div>
+        <div class="col-6">
+            User..........<input type="text" id="userInput" />
+            <br />
+            Message...<input type="text" id="messageInput" />
+            <input type="button" id="sendButton" value="Add group " />
+            <input type="button" id="removeButton" value="remove Message" />
+            <input type="button" id="sendrealmessage" value="Send Message" />
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">&nbsp;</div>
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+</div>
+
+
+<button id="multiConnect" class="btn btn-danger btn-lg">multiconnect</button>
+
+<button id="addtogroup" class="btn btn-danger btn-lg">addtogroup</button>
+<button id="sender" class="btn btn-danger btn-lg">sendmessage</button>
+
+
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+
+<script src="~/js/Chat.js"></script>
+
+
+
+
+
+
+
